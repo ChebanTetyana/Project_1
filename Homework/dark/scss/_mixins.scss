@@ -1,0 +1,11 @@
+@mixin pseudo($pos: absolute, $content: ''){
+  content: $content;
+  position: $pos;
+}
+
+@mixin flexBox($justify_content, $align_items, $gap) {
+    display: flex;
+    justify-content: $justify_content;
+    align-items: $align_items;
+    gap: $gap;
+}
